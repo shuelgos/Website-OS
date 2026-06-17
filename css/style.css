@@ -10,13 +10,15 @@ body {
   line-height: 1.6;
   color: #2b2b2b;
   background-color: #f7f8fc;
+  margin: 0;
 }
 
 h1, h2 {
   font-family: 'Poppins', sans-serif;
 }
 header {
-  background-color: #4F46E5;
+  /*background-color: #4F46E5;*/
+  background-color: #2a2a4a;
   color: white;
   padding: 20px 40px;
   display: flex;
@@ -24,6 +26,11 @@ header {
   align-items: center;
   position: sticky;
   top: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
 }
 
 header h1 {
@@ -54,7 +61,7 @@ section {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(135deg, #4F46E5, #818CF8);
+  background: linear-gradient(135deg, #8347E6, #818CF8);
   color: white;
 }
 
@@ -132,3 +139,4 @@ section {
   width: 60px;
   height: 60px;
 }
+
