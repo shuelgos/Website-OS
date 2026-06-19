@@ -667,9 +667,55 @@ section {
 /* ============================================================
    FOOTER
    ============================================================ */
-footer {
+.site-footer {
+  background-color: var(--color-primary);
+  color: white;
   text-align: center;
-  padding: 30px;
-  color: var(--color-ink-soft);
+  padding: 50px 30px 35px;
+}
+
+.footer-institucion {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 24px;
+}
+
+.footer-autores {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 28px;
+  margin-bottom: 24px;
+}
+
+.footer-autores li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.autor-nombre {
   font-size: 14px;
+  font-weight: 500;
+}
+
+.autor-codigo {
+  font-family: var(--font-mono, monospace);
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.footer-nota {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  max-width: 280px;
+  margin: 0 auto;
 }
